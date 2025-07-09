@@ -89,12 +89,23 @@ export default function ScanPage() {
             >
               {isScanning ? 'Scanning...' : (
                 <>
-                  
-                  <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-500 rounded-lg" />
-                  <div className="px-8 py-2 bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent flex items-center gap-2">
+                  <div className={`transition-all duration-1000 delay-300 transform  'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+
+                  <div className="px-10 py-2 bg-blue-600 hover:bg-blue-700 rounded-full text-lg font-medium shadow-lg transition-all hover:shadow-blue-500/20 hover:shadow-xl flex items-center gap-2">
                     <Search size={18} />
                     <span>Scan Now</span>
                   </div>
+                  </div>
+
+
+
+
+                  
+                  {/* <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-indigo-500 rounded-lg" />
+                  <div className="px-8 py-5 bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent flex items-center gap-2">
+                    <Search size={18} />
+                    <span>Scan Now</span>
+                  </div> */}
                   
                 </>
               )}

@@ -1,8 +1,8 @@
-import AnimatedBackground from '@/components/Background0'
+import AnimatedBackground from '@/components/Background'
 import './globals.css'
 
 export const metadata = {
-  title: 'Cookie Scanner',
+  title: 'Cookie Pook',
   description: 'Check website cookie compliance',
 }
 

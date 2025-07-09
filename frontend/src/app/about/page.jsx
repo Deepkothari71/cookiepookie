@@ -3,8 +3,6 @@
 import PageLayout from '../page-layout'
 import { CardSpotlight } from '@/components/ui/card-spotlight'
 import { motion } from 'framer-motion'
-import DecryptedText from '@/components/ui/Encryptedtext';  
-
 
 export default function AboutPage() {
   return (
@@ -19,9 +17,7 @@ export default function AboutPage() {
     >
       <PageLayout>
         
-          <DecryptedText
-            text="This text animates when in view"
-          />
+          {/* Removed DecryptedText animated text */}
 
         <div className="max-w-3xl mx-auto mt-8">
           <motion.h1 
@@ -30,10 +26,7 @@ export default function AboutPage() {
             transition={{ duration: 0.6 }}
             className="text-3xl font-bold mb-6 text-center"
           >
-            <DecryptedText
-            text="About Cookie Scanner"
-          />
-            
+            About Cookie Scanner
           </motion.h1>
           
           <motion.div 

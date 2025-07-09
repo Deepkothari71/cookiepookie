@@ -31,7 +31,7 @@ export default function HomePage() {
               Cookie Compliance Scanner
             </h1>
             <p className="text-xl text-slate-300 mb-8">
-              Ensure your website complies with cookie regulations and protect your users' privacy
+              Ensure your website complies with cookie regulations and protect your users&apos; privacy
             </p>
           </div>
           
@@ -101,7 +101,7 @@ export default function HomePage() {
              style={{ transitionDelay: '1000ms' }}>
           <div className="bg-gradient-to-r from-blue-900/30 to-purple-900/30 rounded-2xl py-12 px-6 max-w-4xl mx-auto border border-blue-800/30">
             <h2 className="text-2xl md:text-3xl font-bold mb-6">
-              Ready to check your website's compliance?
+              Ready to check your website&apos;s compliance?
             </h2>
             <Link
               href="/scan"

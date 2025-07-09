@@ -2,7 +2,7 @@ import AnimatedBackground from '@/components/Background'
 import './globals.css'
 
 export const metadata = {
-  title: 'Cookie Pook',
+  title: 'Cookie Pookie',
   description: 'Check website cookie compliance',
 }
 

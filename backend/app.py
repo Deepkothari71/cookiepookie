@@ -8,7 +8,9 @@ import json
 import os
 
 app = Flask(__name__)
-CORS(app)
+# Restrict CORS to only allow requests from the Vercel frontend domain
+VERCEL_FRONTEND_URL = os.environ.get("VERCEL_FRONTEND_URL", "https://cookiepookie-ten.vercel.app")
+CORS(app, origins=[VERCEL_FRONTEND_URL])
 
 # Load the SentenceTransformer model once
 model = SentenceTransformer('all-MiniLM-L6-v2')
